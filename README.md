@@ -21,4 +21,23 @@ The Dynamic Interactive Python Dashboard is a versatile tool designed to simplif
 - **Personal Projects**: Apply the tool to personal datasets to gain insights and improve data storytelling.
 
 ## Examples
-- Importing a CSV file, choose a chart, and ask the chat box what kind of dashboard they want
+
+- Importing a CSV file, choose a chart, and ask the chat box what kind of dashboard they want.
+
+## Running the Streamlit Dashboard Application
+
+This guide provides detailed instructions on how to set up and run the `dashboardOperator.py` Streamlit application, which utilizes the OpenAI API. It is essential to ensure that the `OPENAI_API_KEY` environment variable is set before running the application.
+
+### Requirements
+
+- Python 3.6 or higher
+- Streamlit
+- OpenAI Python client
+- pandas
+
+### Installation
+
+Install the necessary Python libraries using pip:
+
+```bash
+pip install streamlit openai pandas
