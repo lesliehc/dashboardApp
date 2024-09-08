@@ -41,3 +41,30 @@ Install the necessary Python libraries using pip:
 
 ```bash
 pip install streamlit openai pandas
+
+```
+
+### Running The Program
+
+```bash
+
+streamlit run dashboardOperator.py
+
+```
+
+### Testing The Program
+
+install pytest
+
+```bash
+
+pip install pytest
+
+```
+run test
+
+```bash
+
+pytest test_dashboardOperator.py
+
+```
